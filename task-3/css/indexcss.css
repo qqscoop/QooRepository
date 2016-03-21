@@ -1,0 +1,52 @@
+ul{
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	display: table;
+}
+li{
+	float: left;
+	margin: 10px;
+}
+.container{
+	width: auto;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+	background: #eee;
+	border: 1px solid#999;
+	overflow: hidden;
+}
+.team-infor{
+	width: 200px;
+	padding: 20px;
+	background: white;
+	border: 1px solid #999999;
+}
+.team-infor img{
+	width: 80px;
+	height: 80px;
+}
+.text{
+	margin: 0;
+	padding: 20px;
+	background: white;
+	border: 1px solid #999999;
+}
+.text p{
+	margin: 0;
+}
+
+.member-pic{
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	height: auto;
+	background: white;
+	border: 1px solid #999999;
+}
+.member-pic img{
+	margin: 20px;
+	width: 80px;
+	height: 80px;
+}
