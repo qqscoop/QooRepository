@@ -1,0 +1,18 @@
+.ulnostyle{
+	list-style: none;
+}
+
+table{
+	width: 1130px;
+}
+td{
+	border: 1px solid #d9d9db;	
+}
+.headrow{
+	background: #333333;
+	color: white;
+}
+.bottomrow{
+	background: #cccccc;
+}
+
