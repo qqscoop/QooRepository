@@ -1,0 +1,57 @@
+
+/*清除浮动*/
+.clearfix :after{
+	content: ".";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom: :1;
+}
+.big-box{
+	width: 100%;
+}
+.container{
+	position: relative;
+	margin: 0 auto;
+	width: 1210px;
+	height: auto;
+	
+	box-sizing: border-box;
+	padding-right: 335px;
+}
+.ulnostyle{
+	list-style: none;
+}
+
+table{
+	width: 100%;
+}
+td{
+	border: 1px solid #d9d9db;	
+}
+.headrow{
+	background: #333333;
+	color: white;
+}
+.bottomrow{
+	background: #cccccc;
+}
+
+
+.right{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 320px;
+    height: auto;
+	box-sizing: border-box;
+}
+.left{
+	width: 100%;
+	box-sizing: border-box;
+}

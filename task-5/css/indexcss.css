@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:#dedede;
+}
+
+
+.header{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+	background: #333333;
+}
+#head-img{
+	height: auto;
+	float: left;
+	margin: 0 30px;
+}
+.header img{
+	width: 25%;
+	float: left;
+}
+.header-guide{
+	float: right;
+}
+.header-guide li{
+	float: left;
+	margin-right: 30px;	
+	font-size: 20px;
+	color: black;
+}
+.header-guide a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.text-page{
+	width:auto;
+	height: auto;
+	margin: 20px auto;
+	padding: 40px 20px;
+	background: white;
+	border: 1px solid #33333;
+	
+	
+	-webkit-box-shadow: #a1a1a1 0px 0px 5px;
+	-moz-box-shadow: #a1a1a1 0px 0px 5px;
+	box-shadow: #a1a1a1 0px 0px 5px;
+	
+}
+.text-page h2{
+	color: #6f5a5a;
+}
+.text-page p{
+	text-indent: 2em;
+}
+.text-page pre{
+	color: #69727b;
+}
+
+.picdiv{
+	float: left;
+	width: 115px;
+	border: 1px solid #dddddd;
+	padding: 10px;
+	margin: 15px;
+}
+.picdiv img{
+	width: 115px;
+}
+.picdiv p{
+	padding: 0;
+	width: 115px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.sidebar{
+	border-left: 5px solid #cbcbcb;
+	padding: 20px 10px;
+	margin: 10px;
+	font-size: 17px;
+}
+.user-infor{
+	padding: 0;
+}
+.user-infor td{
+	font-size: 11px;
+	margin: 10px 5px;
+	border: none;
+	margin: 5px;
+}
+.td-left{
+	width: auto;
+	float: right;
+}
+.td-right{
+	width: auto;
+}
+.td-right p{
+	color: #919594;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	left: -20px;
+}
+.td-right label{
+	float: left;
+}
+#self-discribe{
+	width: 200px;
+	height: 100px;
+}
+.check-submit{
+	height: 40px;
+	position: relative;
+	-moz-border-radius: 5px;      
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+	background: #3355d0;
+	margin: 10px 20px;
+}
+.check-submit p{
+	margin: 0 auto;
+}
+.check-button{	 
+	border: none;
+	color: white;
+	font-size: large;
+	background: #3355d0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+.copy{
+	width: 100%;
+	height: 50px;
+	font-size: small;
+	color: white;
+	background: black;
+}
+.copy p{
+	position: relative;
+	top: 15px;
+	width: 80px;
+	margin: 0 auto;
+}
